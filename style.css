@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: Nexa;
+  src: url(./fonts/Nexa-Trial-Bold.otf);
+
+  font-family: Gilroy-Light;
+  src: url(./fonts/Gilroy-Light.otf);
+
+  font-family: Monument-Regular;
+  src: url(./fonts/MonumentExtended-Regular.otf);
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: ; */
+  color: #fff;
+
+  background: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #43dddd;
+  font-family: Monument-Regular;
+  font-size: 100px;
+  margin: auto 0px;
+  text-align: center;
+}
+
+p.message {
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 50px;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 80px;
+  margin: 20px auto;
+}
+footer {
+  display: inline-flex;
+  margin: 20px auto;
+  padding: 0px 80px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+p.BTW {
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 50px;
+  text-align: center;
+}
+p.label-highscore,
+p.label-score {
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 30px;
+  text-align: center;
+  justify-items: center;
+}
+div .again {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  /* opacity: 40%; */
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 35px;
+  border: none;
+  padding: 12px 40px;
+}
+button {
+  cursor: pointer;
+}
+.number {
+  width: 200px;
+  margin-right: 10px;
+  font-family: Monument-Regular;
+  font-size: 100px;
+  text-align: center;
+  padding: 12px 40px;
+  height: 150px;
+  border-radius: 35px;
+  background: linear-gradient(#119aad, #00f1ff);
+}
+/* .Guess {
+  width: 200px;
+  border: none;
+  margin-right: 10px;
+  font-family: Monument-Regular;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 12px 40px;
+  height: 150px;
+  border-radius: 35px;
+  background: linear-gradient(#119aad, #00f1ff);
+} */
+div.Guess {
+  width: 200px;
+  height: 150px;
+  background: linear-gradient(#119aad, #00f1ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+}
+
+div.Guess input[type='number'] {
+  border: none;
+  background: transparent;
+  width: 200px;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-family: Monument-Regular;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+div.Guess button {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 10px 40px;
+  color: #2f383d;
+  /* color: #fff; */
+  font-family: Monument-Regular;
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 35px;
+}
